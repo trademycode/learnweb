@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 60vh;
+            /* line-height: 100%; */
+            position: fixed;
+            overflow: auto;
+            border: 1px solid lightblue;
+            bottom:0;
+            width:100%;
+
+        }
+
+        li a {
+            float:left;
+            padding: 8px 16px;
+        }
+
+        li a.active {
+            background-color: green;
+            color: black;
+        }
+
+        li a:hover:not(.active) {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a class="active" href="#home">home</a>
+        </li>
+        <li>
+            <a href="#contacts">contacts</a>
+        </li>
+        <li>
+            <a href="history">history</a>
+        </li>
+    </ul>
+    <div style="padding:16px 3px;">
+        <h2>fixed height scroll bar</h2>
+        <p> some text</p>
+        <p>some text</p>
+        <p>some text</p>
+    </div>
+</body>
+
+</html>

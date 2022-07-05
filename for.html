@@ -1,0 +1,43 @@
+<html>
+
+<head>
+</head>
+
+<body style="background-color: red">
+    <center>
+        <h1>loops in JavaScript</h1>
+    </center>
+
+    <script>
+        var isPrime = true;
+        var num = prompt("enter a no")
+        if (num == 1) {
+            document.write("not prime no not a composite no")
+        }
+        else if (num > 1) {
+
+
+            for (i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime) {
+                console.log("reddy")
+                alert("no")
+            } else {
+                alert("yes")
+                console.log("reddy")
+            }
+
+
+        }
+
+            // document.write("not prime no")
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            background-color: blue;
+            /* width: 50%;
+            height: 100px; */
+            flex-direction: row;
+
+        }
+
+        .item-left {
+            background-color: aliceblue;
+            padding: 10px;
+            flex:50%;
+        }
+
+        .item-right {
+            background-color: aqua;
+            
+            
+            flex:50%;
+        }
+
+        @media (max-width:800px) {
+            .container {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item-left">1</div>
+        <div class="item-right">2</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.container{
+    height:200px;
+    width:200px;
+    margin:0;
+    float:left;
+    overflow:hidden;
+    border:1px solid red;
+
+
+    
+    
+}
+img{
+    height:100px;
+    width:100px;
+}
+des{
+    padding:30px;
+    font-family:vardan;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    
+
+
+}

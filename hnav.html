@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+border:1px solid gray;
+
+        }
+
+        li {
+            display: inline;
+
+            background-color: black;
+            color: white;
+            padding: 4px;
+        }
+
+        li a.active {
+            background-color: green;
+            color: black;
+        }
+        li a:hover{
+            background-color: beige;
+            color:red;
+
+        }
+        li :last-child{
+            border-right:none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a class="active" href="#home">home</a>
+        </li>
+        <li>
+            <a href="#contacts">contacts</a>
+        </li>
+        <li style="float:right">
+            <a href="#history">history</a>
+        </li>
+    </ul>
+</body>
+
+</html> 

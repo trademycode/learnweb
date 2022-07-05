@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <p>this is an animated bird</p>
+   
+    <img id="imag" src ="https://p1.pxfuel.com/preview/100/622/368/blackbird-bird-songbird-garden-bird-royalty-free-thumbnail.jpg" width="300" height="280">
+    <p>
+        <button type="button" onclick="fly(1)">flyon</button>
+        <button type="button" onclick="fly(0)">flyoff</button>
+    </p>
+
+    <script>
+        function fly(bulbType) {
+            var pic;
+            if (bulbType == 0) {
+                pic = "https://p1.pxfuel.com/preview/100/622/368/blackbird-bird-songbird-garden-bird-royalty-free-thumbnail.jpg"
+            }
+            else {
+                pic = "https://p1.pxfuel.com/preview/789/182/396/crow-fly-winter-animal.jpg"
+            }
+            document.getElementById('imag').src = pic
+
+        }
+    </script>
+</body>
+
+</html>

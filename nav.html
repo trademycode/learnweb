@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>navigation links</title>
+    <style>
+        /* ul {
+            border: 10px solid red;
+            padding: 0%;
+            margin: 0%;
+            background-color: black;
+        }
+
+        ul,li,a {
+            display: inline-block;
+            color: azure;
+            text-align: center;
+            padding: 11px;
+        } */
+
+        li a:hover {
+            background-color: aquamarine;
+        }
+
+        .about-child{
+            display: none;
+        }
+
+        .about-nav:hover + .about-child {
+            display: block;
+        }
+
+        .about-child > a {
+            display: block;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#news"> news</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li>
+                <a class="about-nav" href="#aboutus">aboutus</a>
+                <div class="about-child">
+                    <a href="#link">link1</a>
+                    <a href="#link2">link2</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <p>this is the navigaon page<span style="border:1px solid black" ;>navigation</span></p>
+</body>
+
+</html>

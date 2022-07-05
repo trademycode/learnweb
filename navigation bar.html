@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f1f1;
+            width: 60%;
+        }
+
+        li a {
+            display: inline-block;
+            color: white;
+            padding: 8px 16px;
+        }
+
+        /* li a:hover {
+            background-color: beige;
+            color: blue;
+        } */
+        
+
+        li a.active {
+            background-color: red;
+            color: blue;
+
+        }
+        
+        li a:hover:not(.active)
+        {
+            background-color:black;
+            color:white;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#" class="active" >HOME</a>
+        </li>
+        <li>
+            <a href="#">bed</a>
+        </li>
+        <li>
+            <a href="#">contacts</a>
+            </li>
+    </ul>
+</body>
+
+</html>

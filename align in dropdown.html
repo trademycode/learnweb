@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        .button, .btn-right {
+            background-color: green;
+            color: white;
+            width: 93px;
+            height: 52px;
+        }
+
+        .button:hover + .dropdowncontent , .btn-right:hover + .right-dd-content {
+            color: black;
+            display: block;
+        }
+
+        .dropdowncontent,  .right-dd-content{
+            display: none;
+        }
+
+        .dd-content-a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="dropdown" style="float:left;">
+        <button class="button">left</button>
+        <div class="dropdowncontent" style="left:0" ;>
+            <a class="dd-content-a" href="#link1">link1</a>
+            <a class="dd-content-a" href="#link2">link2</a>
+            <a class="dd-content-a" href="#link3">link3</a>
+        </div>
+    </div>
+
+    <div class="dropdown" style="float:right;">
+        <button class="btn-right">right</button>
+        <div class="right-dd-content" style="right:0" ;>
+            <a class="dd-content-a" href="#link1">link4</a>
+            <a  class="dd-content-a" href="#link2">link5</a>
+            <a class="dd-content-a" href="#link3">link6</a>
+        </div>
+    </div>
+    
+</body>
+
+</html>

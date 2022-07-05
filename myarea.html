@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <style>
+        /* .item1 {
+            grid-area: myarea;
+
+        } */
+
+        .container {
+            width:500px;
+            height: 400px;
+            display: grid;
+            grid-template-areas: myarea myarea myarea myarea myarea;
+            background-color: red;
+            padding: 10px;
+            gap:10px;
+        }
+/* 
+        .container>div {
+            background-color:brown;
+            text-align: center;
+            padding: 20px;
+        } */
+        .item1{
+            grid-area:1/1/2/2;
+        }
+        .item2{
+            grid-area:3/1/4/2;
+        }
+        .item3{
+
+            grid-area: 3/2/4/3;
+        }
+        .item4{
+            grid-area:3/3/4/4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</3div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+        </div>
+</body>
+
+</html>

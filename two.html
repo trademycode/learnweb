@@ -1,0 +1,44 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <p id="demo">Hi</p>
+    <p id="char">Hi</p>
+
+    <script>
+        let text1 = "   hello      ";
+        let text2 = text1.trim();
+        document.getElementById("demo").innerHTML = text1.length + " " + text2.length;
+
+        // "Text 1 lenght " + text1.length + "------" +" Text 2 lenght " + text2.length;
+        var text = "hello world";
+        let char = text.charAt(0);
+        document.getElementById("char").innerHTML = char;
+
+
+
+        // user entered value contains "learn" then display in UI  "The entered value matches the criteria" else "Not mathed the criteria"
+
+        // mylearn
+        //learn
+        //123learn
+
+        var userInput = prompt("Enter Value");
+
+        if (userInput.split(" ").join("").includes("learn") && userInput.charAt(0).toUpperCase()=="A"
+         &&userInput.includes("0") ) {
+            alert("yes")
+        } else {
+            alert("no")
+        }
+
+
+
+
+    </script>
+
+</body>
+
+</html>

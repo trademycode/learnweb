@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap
+        }
+
+        .img-holder {
+            flex: 33.3%;
+            max-width: 33.3%;
+        }
+
+        @media (max-width:800px) {
+            .img-holder {
+            flex: 50%;
+            max-width: 50%;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="img-holder">
+            <img src="./baby.jpg" alt="baby" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+        </div>
+        <div class="img-holder">
+            <img src="./baby.jpg" alt="baby" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+        </div>
+        <div class="img-holder">
+            <img src="./baby.jpg" alt="baby" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+            <img src="./flower.jpg" alt="flower" style="width: 100%">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            display: grid;
+            width: 600px;
+            height: 200px;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 25% 25% 25% 25%;
+            text-align: center;
+            font-size: medium;
+            gap: 50px 100px;
+        }
+
+        .header {
+            grid-row: 1/4;
+            grid-column: 1/4;
+            background-color: red;
+        }
+
+        .menu {
+            grid-row: 2/4;
+            grid-column: 1/2;
+            background-color: blue;
+        }
+
+        .main {
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: green;
+        }
+
+        .right {
+
+            grid-row: 2/3;
+            grid-column: 3/4;
+            background-color: blueviolet;
+        }
+
+        .footer {
+            grid-row: 3/4;
+            grid-column: 2/4;
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="menu">menu</div>
+        <div class="main">main</div>
+        <div class="right">right</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>

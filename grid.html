@@ -1,0 +1,67 @@
+<html>
+<head>
+    <style>
+        .container{
+            display:grid;
+            width:450px;
+            height:200px;
+            grid-template-columns: 10% 80% 10%;
+            grid-template-rows:20% 60% 20%;
+            font-size: medium;
+            text-align: center;
+            color:white;
+            
+        
+        }
+        .header{
+            grid-row: 1/4;
+            grid-column: 1/4;
+            background-color:red;
+        }
+        .navbar{
+            grid-row: 2/3;
+            grid-column: 1/2;
+            background-color:green;
+            
+
+
+        }
+        .content{
+            grid-row: 2/3;
+            grid-column: 2/3;
+            background-color: blue;
+        }
+        .aside{
+           grid-row: 2/3;
+           grid-column:3/4;
+           background-color: brown;
+        }
+        .footer{
+            grid-row:3/4;
+            grid-column:1/4;
+            background-color: blueviolet;
+
+        }
+
+        
+            
+        
+        </style>
+        </head>
+        <body>
+            <div class="container">
+            <div class="header">header</div>
+            <div class="navbar">navbar</div>
+            <div class="content">content</div>
+            <div class="aside">aside</div>
+            <div class="footer">footer</div>
+            </div>
+        </body>
+</html>
+ 
+
+
+
+
+
+

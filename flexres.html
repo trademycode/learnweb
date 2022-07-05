@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            /* width: 30%; */
+            background-color: red;
+            /* flex: strech; */
+            text-align: center;
+
+        }
+
+        .navbar {
+            /* width: 10%; */
+            background-color: black;
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 5px;
+        }
+
+        section {
+            /* width: 60%; */
+            background-color: beige;
+            /* float: left; */
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .sidebar {
+            width: 30%;
+            background-color: yellow;
+        }
+
+        .mainbar {
+            width: 70%;
+        }
+
+        footer {
+            /* width: 10%; */
+            background-color: blue;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 700px) {
+           
+            .navbar {
+                flex-direction: column;
+            }
+
+            .sidebar, .mainbar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>my header <website>
+        </h1>
+        <h4>with a flexble <layout>
+        </h4>
+        <div class="navbar">
+
+            <a href=#link>link</a>
+            <a href=#link>link</a>
+            <a href=#link>link</a>
+            <a href=#link>link</a>
+        </div>
+    </header>
+    <section>
+        <div class="sidebar">
+            <h3>about me</h3>
+            <h4>photo of it</h4>
+            <div class="fakeimage" style="width:100px;">image</div>
+            <p>some text</p>
+            <p>lorium ios</p>
+            <div class="fake image" style="width:100px" ;>image</div>
+            <div class="fake image" style="width:100px;">image</div>
+            <div class="fake image" style="width:100px;">image</div>
+        </div>
+        <div class="mainbar">
+            <h3>title head</h3>
+            <h4>title</h4>
+            <div class="fake image" style="width:100px;">image</div>
+            <p>some text</p>
+            <h3>title head</h3>
+            <div class="fake image" style="width:100px;">image</div>
+            <p>some text</p>
+        </div>
+    </section>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+
+</html>

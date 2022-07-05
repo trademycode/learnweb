@@ -1,0 +1,42 @@
+<html>
+<head>
+    <style>
+        #parent{
+            border:1px solid lightblue;
+        }
+        #div1{
+            height:100px;
+            width:100px;
+            background-color: blue;
+            float:left;
+        }
+        #div2{
+            height:100px;
+            width:100px;
+            background-color: gray;
+            float:left;
+        }
+        #div3{
+            height:100px;
+            width:100px;
+            background-color: green;
+            float:left;
+        }
+            .clear-left::after{
+                content:" ";
+                display:block;
+                float:clear; 
+            }
+
+             
+        
+        </style> 
+        </head>
+        <body>
+            <div id="parent" class="clear-left">
+                <div id="div1"></div>
+                <div id="div2
+                3"></div>
+                </div>
+                </body>
+                </html>
